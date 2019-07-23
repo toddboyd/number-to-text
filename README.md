@@ -1,6 +1,6 @@
 # NumberToText Class
 
-NumberToText is an apex class that converts and integer into a text representation of that integer.
+NumberToText is an apex class that converts an integer into a text representation of that integer.
 ## Examples
 |number|text|
 |--|--|
@@ -15,7 +15,7 @@ NumberToText is an apex class that converts and integer into a text representati
 
 #### Signature
 
-`public String convert(Integer value)`
+`public static String convert(Integer value)`
 
 #### Usage
 Converts any integer value to a lowercase text representation of that integer. Negative values are prepended with the word 'negative.' Values between 21-99 are hyphenated. E.g. twenty-one.
